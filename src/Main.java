@@ -7,5 +7,7 @@ public class Main {
             a[i] = random.nextInt();
             System.out.println(a[i]);
         }
+
+        System.out.println("Я чебурек");
     }
 }
