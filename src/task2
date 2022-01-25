@@ -1,0 +1,10 @@
+SUM = 0
+COUNTER = 1
+loop until COUNTER < 0
+   input B
+   COUNTER = COUNTER * B
+   if COUNTER >= 0 then
+      SUM = SUM + B
+   end if
+end loop
+output SUM
