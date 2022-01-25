@@ -1,0 +1,19 @@
+input A
+input B
+input C
+
+if A <= B AND B <= C then
+   output A,B,C
+else if A <= C AND C <= B then
+   output A,C,B
+else if C <= A AND A <= B then
+   output C,A,B
+else if C <= B AND B <= A then
+   output C,B,A
+else if B <= A AND A <= C then
+   output B,A,C
+else if B <= C AND C <= A then
+   output B,C,A
+end if
+
+
